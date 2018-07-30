@@ -49,6 +49,7 @@
         "mocha": "^5.2.0",
         "mock-http-server": "0.0.4",
         "mongoose": "4.10.5",
+        "now": "^11.1.7",
         "supertest": "^3.1.0",
         "vows": "0.7.0"
     },
