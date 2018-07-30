@@ -55,6 +55,8 @@
     "iframely-proxy-plugins": true,
     "main": "./lib/core",
     "scripts": {
+        "deploy": "now -t \"${NOW_TOKEN}\"",
+        "alias": "now -t \"${NOW_TOKEN}\" alias embed.pri.org",
         "start": "node server",
         "test": "vows test/main.js --isolate --spec && npm run test-e2e",
         "test-e2e": "NODE_ENV=test PORT=8080 mocha --exit test/e2e.js"
